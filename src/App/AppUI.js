@@ -18,14 +18,15 @@ function AppUI({
     setSearchValue,
     searchedTodos,
     completedTodo, 
-    deletedTodo, 
+    deletedTodo,
+    //completed, 
 }) {
 
 return(
 <React.Fragment>
     <TodoCounter
     total ={totalTodos}
-    completed={completedTodo}
+    completedTodos={completedTodos}
     />
     <TodoSearch
     searchValue={searchValue}
